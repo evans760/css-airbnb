@@ -1,3 +1,72 @@
+body {
+  text-align: center;
+  background-color: #CCCCCC;
+}
+
+
 h1 {
-  color: salmon;
+
+  color: gray;
+  text-align: center;
+}
+
+h3 {
+  color: gray;
+  text-align: center;
+}
+
+h4 {
+  color: gray;
+  text-align: center;
+}
+
+img, .titles1 h4 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.titles1 h4 {
+  display: inline-block;
+  color: white;
+  z-index: 1;
+}
+
+.images1 {
+  position: relative;
+}
+
+.images2 {
+  position: relative;
+}
+
+.titles1 {
+ position: absolute;
+ top: 0px;
+ text-align: center;
+ width: 100%;
+ padding-top: 70px;
+}
+
+.titles2 h4 {
+  display: inline-block;
+  color: white;
+  z-index: 1;
+}
+
+.titles2 {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+  padding-top: 70px;
+}
+
+img, .titles2 h4 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+
 }
